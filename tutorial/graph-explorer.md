@@ -108,7 +108,7 @@ Além do conteúdo de resposta diferente dos pontos `/v1.0` de `/beta` extremida
 }
 ```
 
-No enTanto, se as permissões para criar blocos de anotações do OneNote não tiverem sido concedidas, a seguinte resposta será recebida. Observe o código `403 (Forbidden)` de status e a mensagem de erro que indica que o token de OAuth fornecido não inclui os escopos necessários para concluir a ação solicitada.
+No entanto, se as permissões para criar blocos de anotações do OneNote não tiverem sido concedidas, a seguinte resposta será recebida. Observe o código `403 (Forbidden)` de status e a mensagem de erro que indica que o token de OAuth fornecido não inclui os escopos necessários para concluir a ação solicitada.
 
 ```json
 {

@@ -17,7 +17,7 @@ Neste laboratório, você usará a API REST de envio em lote do Microsoft Graph 
 
 ## <a name="version-history"></a>Histórico de versão
 
-| Versão | Data | Comments |
+| Version | Data | Comments |
 | ------- | -----| -------- |
 | 1.2 | 27 de novembro de 2018 | Integrado ao docs.microsoft.com/graph |
 | 1.1 | 7 de novembro de 2018 | Adicionou o conteúdo da etapa 6 para chamar várias operações |

@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD002 MD041 -->
 
-O fluxo que você criou no exercício anterior usa a `$batch` API para fazer duas solicitações individuais para o Microsoft Graph. Chamar o `$batch` ponto de extremidade dessa forma oferece alguns benefícios e flexibilidade, mas a potência real `$batch` do ponto de extremidade é exibida ao executar várias solicitações ao Microsoft `$batch` Graph em uma única chamada. Neste exercício, você estenderá o exemplo de criação de um grupo uniFicado e associando uma equipe para incluir a criação de vários canais padrão para a `$batch` equipe em uma única solicitação.
+O fluxo que você criou no exercício anterior usa a `$batch` API para fazer duas solicitações individuais para o Microsoft Graph. Chamar o `$batch` ponto de extremidade dessa forma oferece alguns benefícios e flexibilidade, mas a potência real `$batch` do ponto de extremidade é exibida ao executar várias solicitações ao Microsoft `$batch` Graph em uma única chamada. Neste exercício, você estenderá o exemplo de criação de um grupo unificado e associando uma equipe para incluir a criação de vários canais padrão para a `$batch` equipe em uma única solicitação.
 
 Abra o [Microsoft Flow](https://flow.microsoft.com) no seu navegador e entre com sua conta de administrador de locatário do Office 365. Selecione o fluxo que você criou na etapa anterior e escolha **Editar**.
 

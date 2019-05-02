@@ -6,11 +6,11 @@ Usando um editor de texto, crie um novo arquivo vazio `MSGraph-Delegate-Batch.sw
 
 [!code-json[](../LabFiles/MSGraph-Delegate-Batch.swagger.json)]
 
-Abra um navegador e navegue até [Microsoft Flow](https://flow.microsoft.com). Entre com sua conta de administrador de locatário do Office 365. Escolha o ícone de engrenagem no canto superior direito e selecione o item **conectorEs personalizados** no menu suspenso.
+Abra um navegador e navegue até [Microsoft Flow](https://flow.microsoft.com). Entre com sua conta de administrador de locatário do Office 365. Escolha o ícone de engrenagem no canto superior direito e selecione o item **conectores personalizados** no menu suspenso.
 
 ![Uma captura de tela do menu suspenso no Microsoft Flow](./images/flow-conn1.png)
 
-Na página **conectorEs personalizados** , escolha o link **criar conector personalizado** no canto superior direito e, em seguida, selecione o item **importar um arquivo de API aberto** no menu suspenso.
+Na página **conectores personalizados** , escolha o link **criar conector personalizado** no canto superior direito e, em seguida, selecione o item **importar um arquivo de API aberto** no menu suspenso.
 
  ![Uma captura de tela do menu suspenso criar conector personalizado no Microsoft Flow](./images/flow-conn2.png)
 
@@ -35,7 +35,7 @@ Escolha **criar conector** no canto superior direito
 
 Após a criação do conector, copie a **URL**de redirecionamento gerada.
 
-![Uma captura de tela da URL de reDirecionamento gerada](./images/flow-conn5.png)
+![Uma captura de tela da URL de redirecionamento gerada](./images/flow-conn5.png)
 
 Volte para o aplicativo registrado no [portal do Azure](https://aad.portal.azure.com) que você criou no exercício anterior. Selecione **responder URLs** na folha **configurações** . Adicione a **URL** de redirecionamento que você copiou como uma **URL de resposta**adicional. Salve o aplicativo no portal do Azure Active Directory.
 

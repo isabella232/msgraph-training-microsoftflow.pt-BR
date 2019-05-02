@@ -2,15 +2,15 @@
 
 Neste exercício, você criará um novo aplicativo do Azure Active Directory que será usado para fornecer as permissões delegadas para o conector personalizado.
 
-Abra um navegador e navegue até o [centro de administração do Azure Active Directory](https://aad.portal.azure.com). Escolha o link do **Azure Active Directory** no menu de navegação à esquerda e, em seguida, escolha a entrada **registros de aplicativo (visualização)** na seção **gerenciar** da folha do **Azure Active Directory** .
+Abra um navegador e navegue até o [centro de administração do Azure Active Directory](https://aad.portal.azure.com). Escolha o link do **Azure Active Directory** no menu de navegação à esquerda e, em seguida, escolha a entrada de **registros de aplicativos** na seção **gerenciar** da folha do **Azure Active Directory** .
 
 ![Uma captura de tela da lâmina do Azure Active Directory no centro de administração do Azure Active Directory](./images/app-reg-preview1.png)
 
-Escolha o item de menu **novo registro** na parte superior da folha **registros de aplicativo (visualização)** .
+Escolha o item de menu **novo registro** na parte superior da folha **registros de aplicativo** .
 
 ![Uma captura de tela da lâmina de registros de aplicativos no centro de administração do Azure Active Directory](./images/app-reg-preview2.png)
 
-Insira `MS Graph Batch App` no campo **nome** . Na seção **tipos de conta com suporte** , selecione **contas em qualquer diretório organizacional**. Deixe a seção reDirecionar **URI** em branco e escolha **registrar**.
+Insira `MS Graph Batch App` no campo **nome** . Na seção **tipos de conta com suporte** , selecione **contas em qualquer diretório organizacional**. Deixe a seção redirecionar **URI** em branco e escolha **registrar**.
 
 ![Uma captura de tela da folha registrar um aplicativo no centro de administração do Azure Active Directory](./images/app-reg-preview3.png)
 
@@ -26,7 +26,7 @@ Na folha **solicitar permissões de API** , escolha o **Microsoft Graph**e, em s
 
  ![Uma captura de tela da lâmina solicitar permissões de API](./images/app-perms-preview2.png)
 
-Escolha a entrada **certificados e segredos** na seção **gerenciar** da folha do **aplicativo de lote do MS Graph** e, em seguida, escolha **novo segredo do cliente**. Insira `forever` na **Descrição** e selecione **nunca** em **expirar**. Selecione **Adicionar**.
+Escolha a entrada **certificados e segredos** na seção **gerenciar** da folha do **aplicativo de lote do MS Graph** e, em seguida, escolha **novo segredo do cliente**. Insira `forever` na **Descrição** e selecione **nunca** em **expirar**. Escolha **Adicionar**.
 
 ![Uma captura de tela da folha de certificados e segredos](./images/app-key-preview1.png)
 
