@@ -33,10 +33,10 @@ Escolha **criar conector** no canto superior direito
 
 ![Uma captura de tela da guia Segurança na configuração do conector](./images/flow-conn4.png)
 
-Após a criação do conector, copie a **URL**de redirecionamento gerada.
+Após a criação do conector, copie a URL de **redirecionamento**gerada.
 
 ![Uma captura de tela da URL de redirecionamento gerada](./images/flow-conn5.png)
 
-Volte para o aplicativo registrado no [portal do Azure](https://aad.portal.azure.com) que você criou no exercício anterior. Selecione **responder URLs** na folha **configurações** . Adicione a **URL** de redirecionamento que você copiou como uma **URL de resposta**adicional. Salve o aplicativo no portal do Azure Active Directory.
+Volte para o aplicativo registrado no [portal do Azure](https://aad.portal.azure.com) que você criou no exercício anterior. Selecione **responder URLs** na folha **configurações** . Adicione a **URL de redirecionamento** que você copiou como uma **URL de resposta**adicional. Salve o aplicativo no portal do Azure Active Directory.
 
 ![Uma captura de tela da lâmina URLs de resposta no portal do Azure](./images/flow-conn6.png)

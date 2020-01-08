@@ -6,9 +6,9 @@ No final, seu fluxo será semelhante à seguinte imagem:
 
 ![Uma captura de tela do fluxo concluído](./images/flow-team1.png)
 
-Abra o [Microsoft Flow](https://flow.microsoft.com) no seu navegador e entre com sua conta de administrador de locatário do Office 365. Escolha **meus fluxos** na navegação à esquerda. Escolha **novo**e, em seguida, **criar de em branco**. Escolha **criar de em branco**. Insira `Manual` na caixa de pesquisa e adicione o disparador de **fluxo do gatilho manualmente** .
+Abra o [Microsoft Flow](https://flow.microsoft.com) no seu navegador e entre com sua conta de administrador de locatário do Office 365. Escolha **meus fluxos** na navegação à esquerda. Escolha **novo**e **instantâneo de em branco**. Insira `Create Team` o **nome do fluxo**e, em seguida, selecione **acionar manualmente um fluxo** em **escolha como disparar este fluxo**. Escolha **Criar**.
 
-Escolha **Adicionar uma entrada**, selecione **texto** e Enter `Name` como o título.
+Selecione o **disparo manual de um** item de fluxo e, em seguida, escolha **Adicionar uma entrada**, selecione **texto** e inserir `Name` como título.
 
 ![Uma captura de tela do gatilho manual de um gatilho de fluxo](./images/flow-team6.png)
 
@@ -87,20 +87,15 @@ Essa fórmula especifica que queremos usar a ID de grupo do resultado da primeir
 
 ![Uma captura de tela do corpo da ação atualizado](./images/flow-team3.png)
 
-Escolha **salvar**, fluxo e escolha **testar** para executar o fluxo.
+Escolha **salvar**e, em seguida, escolha **testar** para executar o fluxo.
 
 > [!TIP]
 > Se você receber uma mensagem de `The template validation failed: 'The action(s) 'Batch_POST-groups' referenced by 'inputs' in action 'Batch_2' are not defined in the template'`erro, a expressão está incorreta e provavelmente faz referência a uma ação de fluxo que não consegue localizar. Verifique se o nome da ação que você está fazendo referência corresponde exatamente.
 
-Escolha o botão de opção **eu executarei a ação do gatilho** e escolha **salvar & Test**. Escolha **continuar** na caixa de diálogo. Forneça um nome sem espaços e escolha **executar fluxo** para criar uma equipe.
+Escolha o botão de opção **executar ação do gatilho** e escolha **salvar & testar**. Escolha **continuar** na caixa de diálogo. Forneça um nome sem espaços e escolha **executar fluxo** para criar uma equipe.
 
 ![Uma captura de tela da caixa de diálogo Executar fluxo](./images/flow-team4.png)
 
-Por fim, escolha o link **Exibir atividade de execução de fluxo** e, em seguida, selecione o fluxo de execução para ver o log de atividades.
-
-> [!NOTE]
-> Talvez seja necessário clicar em sua instância de fluxo em execução na lista executar histórico para exibir a execução do fluxo.
-
-Depois que o fluxo é concluído, seu grupo do Office 365 e sua equipe foram configurados. Selecione os itens de ação em lote para exibir os resultados das chamadas em lote JSON. O `outputs` da `Batch PUT-team` ação deve ter um código de status de 201 para uma associação de equipe bem-sucedida semelhante à imagem abaixo.
+Por fim, escolha **concluído** para ver o log de atividades. Depois que o fluxo é concluído, seu grupo do Office 365 e sua equipe foram configurados. Selecione os itens de ação em lote para exibir os resultados das chamadas em lote JSON. O `outputs` da `Batch PUT-team` ação deve ter um código de status de 201 para uma associação de equipe bem-sucedida semelhante à imagem abaixo.
 
 ![Uma captura de tela do log de atividades de fluxo bem-sucedido](./images/flow-team5.png)

@@ -10,7 +10,7 @@ Escolha o item de menu **novo registro** na parte superior da folha **registros 
 
 ![Uma captura de tela da lâmina de registros de aplicativos no centro de administração do Azure Active Directory](./images/app-reg-preview2.png)
 
-Insira `MS Graph Batch App` no campo **nome** . Na seção **tipos de conta com suporte** , selecione **contas em qualquer diretório organizacional**. Deixe a seção redirecionar **URI** em branco e escolha **registrar**.
+Insira `MS Graph Batch App` no campo **nome** . Na seção **tipos de conta com suporte** , selecione **contas em qualquer diretório organizacional**. Deixe a seção **Redirecionar URI** em branco e escolha **registrar**.
 
 ![Uma captura de tela da folha registrar um aplicativo no centro de administração do Azure Active Directory](./images/app-reg-preview3.png)
 

@@ -2,7 +2,7 @@
 
 Antes de criar um fluxo para consumir o novo conector, use o [Microsoft Graph Explorer](https://developer.microsoft.com/graph/graph-explorer) para descobrir alguns dos recursos e recursos de lotes JSON no Microsoft Graph.
 
-Abra o [Microsoft Graph Explorer](https://developer.microsoft.com/graph/graph-explorer) no navegador. Entre com sua conta de administrador de locatário do Office 365. Escolha o link **Mostrar mais exemplos** no painel de navegação esquerdo e alterne os exemplos para o **envio em lotes** e para o **Microsoft Teams (beta)** . ****
+Abra o [Microsoft Graph Explorer](https://developer.microsoft.com/graph/graph-explorer) no navegador. Entre com sua conta de administrador de locatário do Office 365. Escolha o link **Mostrar mais exemplos** no painel de navegação esquerdo e alterne os exemplos para o **envio em lotes** e para o **Microsoft Teams (beta)** **.**
 
 ![Uma captura de tela da caixa de diálogo Mostrar mais exemplos no explorador do Graph](./images/graph-explore1.png)
 
@@ -64,7 +64,7 @@ A resposta retornada é mostrada abaixo. Observe a matriz de respostas retornada
 
 Cada resposta contém uma `id`propriedade `status`, `headers`, e `body` . Se a `status` propriedade de uma solicitação indicar uma falha, o `body` contém qualquer informação de erro retornada da solicitação.
 
-Para garantir uma ordem de operações para as solicitações, as solicitações individuais podem ser sequenciadas usando [](https://docs.microsoft.com/graph/json-batching#sequencing-requests-with-the-dependson-property) a propriedade dependn.
+Para garantir uma ordem de operações para as solicitações, as solicitações individuais podem ser sequenciadas usando a propriedade [dependn](https://docs.microsoft.com/graph/json-batching#sequencing-requests-with-the-dependson-property) .
 
 Além de operações de sequenciamento e dependência, o processamento em lotes JSON assume um caminho base e executa as solicitações de um caminho relativo. Cada elemento de solicitação em lote é executado a `/v1.0/$batch` partir `/beta/$batch` dos pontos de extremidade, ou como especificado. Isso pode ter diferenças significativas, pois `/beta` o ponto de extremidade pode retornar saída adicional que pode não ser `/v1.0` retornado no ponto de extremidade.
 

@@ -57,7 +57,7 @@ Adicione o seguinte código à caixa de texto **corpo** da ação.
 }
 ```
 
-Observe que as três solicitações acima estão usando [](https://docs.microsoft.com/graph/json-batching#sequencing-requests-with-the-dependson-property) a propriedade dependn para especificar uma ordem de sequência, e cada uma executará uma solicitação post para criar um novo canal na nova equipe.
+Observe que as três solicitações acima estão usando a propriedade [dependn](https://docs.microsoft.com/graph/json-batching#sequencing-requests-with-the-dependson-property) para especificar uma ordem de sequência, e cada uma executará uma solicitação post para criar um novo canal na nova equipe.
 
 Selecione cada instância do `REPLACE` espaço reservado e, em seguida, selecione **expressão** no painel conteúdo dinâmico. Adicione a seguinte fórmula à **expressão**.
 
@@ -67,13 +67,9 @@ body('Batch_PUT-team').responses[0].body.id
 
 ![Uma captura de tela da expressão no painel de conteúdo dinâmico](./images/flow-channel1.png)
 
-Escolha **salvar**e, em seguida, escolha **testar** para executar o fluxo. Selecione o botão de opção **eu executarei a ação do gatilho** e, em seguida, escolha **salvar & Test**. Insira um nome de grupo exclusivo no campo **nome** sem espaços e escolha **executar fluxo** para executar o fluxo.
+Escolha **salvar**e, em seguida, escolha **testar** para executar o fluxo. Selecione o botão de opção **eu executarei a ação do gatilho** e, em seguida, escolha **salvar & testar**. Insira um nome de grupo exclusivo no campo **nome** sem espaços e escolha **executar fluxo** para executar o fluxo.
 
-![Uma captura de tela da caixa de diálogo Executar fluxo](./images/flow-channel3.png)
-
-Depois que o fluxo for iniciado, escolha o link **Exibir atividade de execução do fluxo** e, em seguida, escolha o fluxo de execução para ver o log de atividades.
-
-Quando o fluxo é concluído, a saída final da `Batch POST-channels` ação tem uma resposta de Status http 201 para cada canal criado.
+Depois que o fluxo for iniciado, escolha o botão **concluído** para ver o log de atividades. Quando o fluxo é concluído, a saída final da `Batch POST-channels` ação tem uma resposta de Status http 201 para cada canal criado.
 
 ![Uma captura de tela do log de atividades de fluxo bem-sucedido](./images/flow-channel2.png)
 

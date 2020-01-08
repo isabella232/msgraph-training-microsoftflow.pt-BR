@@ -6,15 +6,11 @@ Usando um editor de texto, crie um novo arquivo vazio `MSGraph-Delegate-Batch.sw
 
 [!code-json[](../LabFiles/MSGraph-Delegate-Batch.swagger.json)]
 
-Abra um navegador e navegue até [Microsoft Flow](https://flow.microsoft.com). Entre com sua conta de administrador de locatário do Office 365. Escolha o ícone de engrenagem no canto superior direito e selecione o item **conectores personalizados** no menu suspenso.
+Abra um navegador e navegue até [Microsoft Flow](https://flow.microsoft.com). Entre com sua conta de administrador de locatário do Office 365. No menu à esquerda, expanda **dados** e escolha **conectores personalizados**.
 
-![Uma captura de tela do menu suspenso no Microsoft Flow](./images/flow-conn1.png)
+![Uma captura de tela do item de menu de conectores personalizados no Microsoft Flow](./images/flow-conn1.png)
 
-Na página **conectores personalizados** , escolha o link **criar conector personalizado** no canto superior direito e, em seguida, selecione o item **importar um arquivo de API aberto** no menu suspenso.
-
- ![Uma captura de tela do menu suspenso criar conector personalizado no Microsoft Flow](./images/flow-conn2.png)
-
-Insira `MS Graph Batch Connector` na caixa de texto **nome do conector personalizado** . Escolha o ícone de pasta para carregar o arquivo de API aberto. Navegue até o `MSGraph-Delegate-Batch.swagger.json` arquivo que você criou. Escolha **continuar** para carregar o arquivo de API aberto.
+Na página **conectores personalizados** , escolha o link **novo conector personalizado** no canto superior direito e, em seguida, selecione o item **importar um arquivo do openapi** no menu suspenso. Insira `MS Graph Batch Connector` na caixa de texto **nome do conector** . Escolha o botão **importar** para carregar o arquivo de API aberto. Navegue até o `MSGraph-Delegate-Batch.swagger.json` arquivo que você criou. Escolha **continuar** para carregar o arquivo openapi.
 
  ![Uma captura de tela da caixa de diálogo Criar conector personalizado](./images/flow-conn3.png)
 
@@ -33,10 +29,10 @@ Escolha **criar conector** no canto superior direito
 
 ![Uma captura de tela da guia Segurança na configuração do conector](./images/flow-conn4.png)
 
-Após a criação do conector, copie a **URL**de redirecionamento gerada.
+Após a criação do conector, copie a URL de **redirecionamento**gerada.
 
 ![Uma captura de tela da URL de redirecionamento gerada](./images/flow-conn5.png)
 
-Volte para o aplicativo registrado no [portal do Azure](https://aad.portal.azure.com) que você criou no exercício anterior. Selecione **visão geral** na folha do **aplicativo de lote do MS Graph** e, em seguida, selecione **Adicionar um URI de**redirecionamento. Adicione a **URL** de redirecionamento que você copiou no campo **URI** de redirecionamento e escolha **salvar**.
+Volte para o aplicativo registrado no [portal do Azure](https://aad.portal.azure.com) que você criou no exercício anterior. Selecione **visão geral** na folha do **aplicativo de lote do MS Graph** e, em seguida, selecione **Adicionar um URI de redirecionamento**. Adicione a **URL de redirecionamento** que você copiou no campo **URI de redirecionamento** e escolha **salvar**.
 
 ![Uma captura de tela da lâmina URLs de resposta no portal do Azure](./images/flow-conn-preview6.png)
